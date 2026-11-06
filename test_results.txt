@@ -1,7 +1,3 @@
-### python --version
-Python 3.13.18
-
-### python -m unittest discover -v
 test_ac2_120_minutes_allowed_121_rejected (test_ac_regression.BoundaryAndImmutability.test_ac2_120_minutes_allowed_121_rejected) ... ok
 test_ac4_touching_allowed_overlap_rejected (test_ac_regression.BoundaryAndImmutability.test_ac4_touching_allowed_overlap_rejected) ... ok
 test_ac5_catalog_bookings_unchanged_by_checks (test_ac_regression.BoundaryAndImmutability.test_ac5_catalog_bookings_unchanged_by_checks) ... ok
@@ -83,14 +79,10 @@ test_f2_one_missing_item_excludes_room (test_filters.FilterTests.test_f2_one_mis
 test_f4_no_match_returns_empty_list (test_filters.FilterTests.test_f4_no_match_returns_empty_list) ... ok
 
 ----------------------------------------------------------------------
-Ran 79 tests in 0.255s
+Ran 79 tests in 0.701s
 
 OK
-
-### python fuzz_check.py
 compared 200000 random cases, mismatches: 0
-
-### python mutation_check.py
 KILLED   duration >120 -> >=120             booking.py    (FAILED (failures=8))
 KILLED   overlap strict -> inclusive        booking.py    (FAILED (failures=13))
 KILLED   start>now -> start>=now            booking.py    (FAILED (failures=7))
