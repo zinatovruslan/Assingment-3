@@ -1,0 +1,105 @@
+### python --version
+Python 3.13.18
+
+### python -m unittest discover -v
+test_ac2_120_minutes_allowed_121_rejected (test_ac_regression.BoundaryAndImmutability.test_ac2_120_minutes_allowed_121_rejected) ... ok
+test_ac4_touching_allowed_overlap_rejected (test_ac_regression.BoundaryAndImmutability.test_ac4_touching_allowed_overlap_rejected) ... ok
+test_ac5_catalog_bookings_unchanged_by_checks (test_ac_regression.BoundaryAndImmutability.test_ac5_catalog_bookings_unchanged_by_checks) ... ok
+test_ac5_input_list_not_mutated (test_ac_regression.BoundaryAndImmutability.test_ac5_input_list_not_mutated) ... ok
+test_differential_against_oracle (test_ac_regression.BoundaryAndImmutability.test_differential_against_oracle) ... ok
+test_T01_AC4 (test_ac_regression.RegressionCases.test_T01_AC4) ... ok
+test_T02_AC4 (test_ac_regression.RegressionCases.test_T02_AC4) ... ok
+test_T03_AC4 (test_ac_regression.RegressionCases.test_T03_AC4) ... ok
+test_T04_AC4 (test_ac_regression.RegressionCases.test_T04_AC4) ... ok
+test_T05_AC4 (test_ac_regression.RegressionCases.test_T05_AC4) ... ok
+test_T06_AC4 (test_ac_regression.RegressionCases.test_T06_AC4) ... ok
+test_T07_AC4 (test_ac_regression.RegressionCases.test_T07_AC4) ... ok
+test_T08_AC4 (test_ac_regression.RegressionCases.test_T08_AC4) ... ok
+test_T09_AC4 (test_ac_regression.RegressionCases.test_T09_AC4) ... ok
+test_T10_AC4 (test_ac_regression.RegressionCases.test_T10_AC4) ... ok
+test_T11_AC4 (test_ac_regression.RegressionCases.test_T11_AC4) ... ok
+test_T12_AC4 (test_ac_regression.RegressionCases.test_T12_AC4) ... ok
+test_T13_AC3 (test_ac_regression.RegressionCases.test_T13_AC3) ... ok
+test_T14_AC3 (test_ac_regression.RegressionCases.test_T14_AC3) ... ok
+test_T15_AC3 (test_ac_regression.RegressionCases.test_T15_AC3) ... ok
+test_T16_AC2 (test_ac_regression.RegressionCases.test_T16_AC2) ... ok
+test_T17_AC2 (test_ac_regression.RegressionCases.test_T17_AC2) ... ok
+test_T18_AC2 (test_ac_regression.RegressionCases.test_T18_AC2) ... ok
+test_T19_AC1 (test_ac_regression.RegressionCases.test_T19_AC1) ... ok
+test_T20_AC1 (test_ac_regression.RegressionCases.test_T20_AC1) ... ok
+test_T21_AC1 (test_ac_regression.RegressionCases.test_T21_AC1) ... ok
+test_T22_AC1 (test_ac_regression.RegressionCases.test_T22_AC1) ... ok
+test_T23_AC1 (test_ac_regression.RegressionCases.test_T23_AC1) ... ok
+test_T24_AC1 (test_ac_regression.RegressionCases.test_T24_AC1) ... ok
+test_T25_AC1 (test_ac_regression.RegressionCases.test_T25_AC1) ... ok
+test_T26_AC1 (test_ac_regression.RegressionCases.test_T26_AC1) ... ok
+test_T27_AC1 (test_ac_regression.RegressionCases.test_T27_AC1) ... ok
+test_T28_AC1 (test_ac_regression.RegressionCases.test_T28_AC1) ... ok
+test_T29_AC1 (test_ac_regression.RegressionCases.test_T29_AC1) ... ok
+test_T30_AC1 (test_ac_regression.RegressionCases.test_T30_AC1) ... ok
+test_T31_AC1 (test_ac_regression.RegressionCases.test_T31_AC1) ... ok
+test_T32_AC1 (test_ac_regression.RegressionCases.test_T32_AC1) ... ok
+test_T33_AC1 (test_ac_regression.RegressionCases.test_T33_AC1) ... ok
+test_T34_AC1 (test_ac_regression.RegressionCases.test_T34_AC1) ... ok
+test_T35_AC1 (test_ac_regression.RegressionCases.test_T35_AC1) ... ok
+test_T36_AC4 (test_ac_regression.RegressionCases.test_T36_AC4) ... ok
+test_T37_AC4 (test_ac_regression.RegressionCases.test_T37_AC4) ... ok
+test_T38_AC2 (test_ac_regression.RegressionCases.test_T38_AC2) ... ok
+test_T39_AC1 (test_ac_regression.RegressionCases.test_T39_AC1) ... ok
+test_T40_AC1 (test_ac_regression.RegressionCases.test_T40_AC1) ... ok
+test_T41_AC1 (test_ac_regression.RegressionCases.test_T41_AC1) ... ok
+test_T42_AC2 (test_ac_regression.RegressionCases.test_T42_AC2) ... ok
+test_blocked_room_reports_unavailable (test_app_integration.IntegrationTests.test_blocked_room_reports_unavailable) ... ok
+test_equipment_combination_with_no_match_shows_empty_state (test_app_integration.IntegrationTests.test_equipment_combination_with_no_match_shows_empty_state) ... ok
+test_invalid_attendees_shows_error_not_empty_state (test_app_integration.IntegrationTests.test_invalid_attendees_shows_error_not_empty_state) ... ok
+test_requests_do_not_mutate_catalog (test_app_integration.IntegrationTests.test_requests_do_not_mutate_catalog) ... ok
+test_responsive_markup_present (test_app_integration.IntegrationTests.test_responsive_markup_present) ... ok
+test_room_switching_changes_result_for_same_times (test_app_integration.IntegrationTests.test_room_switching_changes_result_for_same_times) ... ok
+test_selected_room_outside_filter_falls_back_to_first_match (test_app_integration.IntegrationTests.test_selected_room_outside_filter_falls_back_to_first_match) ... ok
+test_successful_filter_and_available_result (test_app_integration.IntegrationTests.test_successful_filter_and_available_result) ... ok
+test_unknown_path_returns_404 (test_app_integration.IntegrationTests.test_unknown_path_returns_404) ... ok
+test_unsuccessful_filter_shows_empty_state (test_app_integration.IntegrationTests.test_unsuccessful_filter_shows_empty_state) ... ok
+test_user_input_is_escaped (test_app_integration.IntegrationTests.test_user_input_is_escaped) ... ok
+test_validation_feedback_messages (test_app_integration.IntegrationTests.test_validation_feedback_messages) ... ok
+test_cases (test_booking.AcceptanceTests.test_cases) ... ok
+test_inputs_unchanged_when_available (test_booking.AcceptanceTests.test_inputs_unchanged_when_available) ... ok
+test_inputs_unchanged_when_blocked (test_booking.AcceptanceTests.test_inputs_unchanged_when_blocked) ... ok
+test_inputs_unchanged_when_unavailable (test_booking.AcceptanceTests.test_inputs_unchanged_when_unavailable) ... ok
+test_html_identical_for_every_room_and_boundary_times (test_equivalence.EquivalenceTests.test_html_identical_for_every_room_and_boundary_times) ... ok
+test_html_identical_for_random_requests (test_equivalence.EquivalenceTests.test_html_identical_for_random_requests) ... ok
+test_boundary_120_vs_121_on_free_room (test_filters.AvailabilityPerRoomTests.test_boundary_120_vs_121_on_free_room) ... ok
+test_boundary_touching_vs_overlapping_on_room_with_booking (test_filters.AvailabilityPerRoomTests.test_boundary_touching_vs_overlapping_on_room_with_booking) ... ok
+test_f3_blocked_room_never_available (test_filters.AvailabilityPerRoomTests.test_f3_blocked_room_never_available) ... ok
+test_f3_blocked_room_still_listed_when_it_matches_requirements (test_filters.AvailabilityPerRoomTests.test_f3_blocked_room_still_listed_when_it_matches_requirements) ... ok
+test_f5_availability_uses_selected_room_bookings_only (test_filters.AvailabilityPerRoomTests.test_f5_availability_uses_selected_room_bookings_only) ... ok
+test_catalog_has_at_least_four_rooms_with_required_fields (test_filters.CatalogTests.test_catalog_has_at_least_four_rooms_with_required_fields) ... ok
+test_room_ids_unique_and_bookings_valid (test_filters.CatalogTests.test_room_ids_unique_and_bookings_valid) ... ok
+test_equipment_options_cover_catalog (test_filters.FilterTests.test_equipment_options_cover_catalog) ... ok
+test_f1_exact_capacity_included (test_filters.FilterTests.test_f1_exact_capacity_included) ... ok
+test_f1_insufficient_capacity_excluded (test_filters.FilterTests.test_f1_insufficient_capacity_excluded) ... ok
+test_f2_all_selected_items_required (test_filters.FilterTests.test_f2_all_selected_items_required) ... ok
+test_f2_no_selection_means_no_equipment_constraint (test_filters.FilterTests.test_f2_no_selection_means_no_equipment_constraint) ... ok
+test_f2_one_missing_item_excludes_room (test_filters.FilterTests.test_f2_one_missing_item_excludes_room) ... ok
+test_f4_no_match_returns_empty_list (test_filters.FilterTests.test_f4_no_match_returns_empty_list) ... ok
+
+----------------------------------------------------------------------
+Ran 79 tests in 0.255s
+
+OK
+
+### python fuzz_check.py
+compared 200000 random cases, mismatches: 0
+
+### python mutation_check.py
+KILLED   duration >120 -> >=120             booking.py    (FAILED (failures=8))
+KILLED   overlap strict -> inclusive        booking.py    (FAILED (failures=13))
+KILLED   start>now -> start>=now            booking.py    (FAILED (failures=7))
+KILLED   blocked ignored                    booking.py    (FAILED (failures=10))
+KILLED   day end 1440 -> 1439               booking.py    (FAILED (failures=8))
+KILLED   capacity >= -> >                   filtering.py  (FAILED (failures=5))
+KILLED   ALL equipment -> ANY               filtering.py  (FAILED (failures=18, errors=1))
+KILLED   room bookings ignored (F5)         booking.py    (FAILED (failures=5))
+KILLED   selected room param ignored        app.py        (FAILED (failures=3))
+KILLED   empty state removed                ui.py         (FAILED (failures=3))
+KILLED   viewport meta removed              ui.py         (FAILED (failures=3))
+mutants: 11, survived: 0

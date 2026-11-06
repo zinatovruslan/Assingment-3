@@ -1,0 +1,12 @@
+flowchart TB
+  subgraph final["After (v-final): 5 modules"]
+    APP["app.py<br/>parse input, wiring, WSGI"]
+    ROOMS["rooms.py<br/>Room, CATALOG, NOW"]
+    BOOK["booking.py<br/>validate_request(), can_book(), check_room()<br/>messages and constants"]
+    FILT["filtering.py<br/>matches_requirements(), filter_rooms()"]
+    UI["ui.py<br/>PageView, render_page(), room_label()"]
+    APP --> ROOMS
+    APP --> BOOK
+    APP --> FILT
+    APP --> UI
+  end

@@ -1,0 +1,7 @@
+flowchart TB
+  subgraph v1["Before (v1-feature): 2 modules"]
+    B["booking.py<br/>can_book() -> bool"]
+    A["legacy/app_v1.py<br/>ROOMS data<br/>filter_rooms()<br/>explain_failure() (re-implements 5 rules)<br/>3x parse, 3x room label<br/>HTML rendering + CSS<br/>handle()"]
+    A -->|"uses"| B
+    A -.->|"duplicates rules"| B
+  end
